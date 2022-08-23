@@ -51,7 +51,7 @@ sleep(5)
 number_of_accounts_made = int(input("Enter how many accounts you want to make here:"))
 x = 0
 
-while (x < numbernumber_of_accounts_made):
+while (x < number_of_accounts_made):
     browser.find_element_by_tag_name('body').send_keys(Keys.COMMAND + 'w')
     browser.get('https://accounts.google.com/signup/v2/webcreateaccount?flowName=GlifWebSignIn&flowEntry=SignUp')
     sleep(2)
